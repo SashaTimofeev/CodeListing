@@ -12,7 +12,7 @@ file_extensions = ('.py', '.ui')
 
 # Проверка совпадения расширения файла
 def correct_file_extension(filename, file_extensions):
-    return f'.{filename.split('.')[-1]}' in file_extensions
+    return f'.{filename.split(".")[-1]}' in file_extensions
 
 # Основная функция
 def write_codes(output_file_name, directory, file_extensions):
